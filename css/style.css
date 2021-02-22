@@ -432,7 +432,7 @@ nav .link {
   background-color: var(--white-text);
 
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list {
@@ -589,6 +589,12 @@ h2 .text-cards {
 
 /* CLIENTS */
 
+.clients {
+
+  padding: 94px 215px;
+
+}
+
 .title-clients {
   
   text-align: center;
@@ -604,6 +610,59 @@ h2 .text-cards {
   letter-spacing: 0.03em;
 }
 
+.clients-list {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  
+}
+
+.clients-items:not(:last-child) {
+  margin-right: 30px;
+  
+}
+
+.clients-link {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-logo-1 {
+  width: 44px;
+  height: 49px;
+}
+
+.clients-logo-2 {
+  width: 40px;
+  height: 52px;
+}
+
+.clients-logo-3 {
+  width: 41px;
+  height: 43px;
+}
+
+.clients-logo-4 {
+  width: 80px;
+  height: 43px;
+}
+
+.clients-logo-5 {
+  width: 59px;
+  height: 47px;
+}
+
+.clients-logo-6 {
+  width: 88px;
+  height: 45px;
+}
 
 /* Futer */
 
