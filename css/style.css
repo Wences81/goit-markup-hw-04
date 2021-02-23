@@ -272,6 +272,7 @@ nav .link {
   line-height: 1.6;
   letter-spacing: 0.03em;
   text-align: center;
+  border-radius: 4px;
 
   padding: 6px 22px;
   border: none;
@@ -282,6 +283,8 @@ nav .link {
 .filtr-button:focus {
   color: var(--white-text);
   background-color: var(--blue-text);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 /* Advantages */
@@ -545,6 +548,12 @@ nav .link {
   margin-top: var(--card-set-gap);
 }
 
+.item-card:hover,
+.item-card:focus {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
 .card-content {
   padding: 20px 24px;
   border: 1px solid rgba(238, 238, 238, 1) ;
@@ -627,41 +636,91 @@ h2 .text-cards {
   display: flex;
   width: 170px;
   height: 90px;
-  border: 1px solid #afb1b8;
+  border: 1px solid rgba(175, 177, 184, 1);
   box-sizing: border-box;
   border-radius: 4px;
+  color: var(--icon-color);
+
   justify-content: center;
   align-items: center;
+
 }
+
+.clients-link:hover,
+.clients-link:focus {
+  fill: var(--blue-text);
+  border: 1px solid var(--blue-text);
+ 
+  
+}
+
 
 .clients-logo-1 {
   width: 44px;
   height: 49px;
+  fill: currentColor;
+  
+}
+
+.clients-logo-1:hover,
+.clients-logo-1:focus {
+  fill: var(--blue-text);
 }
 
 .clients-logo-2 {
   width: 40px;
   height: 52px;
+  fill: currentColor;
+}
+
+.clients-logo-2:hover,
+.clients-logo-2:focus {
+  fill: var(--blue-text);
 }
 
 .clients-logo-3 {
   width: 41px;
   height: 43px;
+  fill: currentColor;
+}
+
+.clients-logo-3:hover,
+.clients-logo-3:focus {
+  fill: var(--blue-text);
 }
 
 .clients-logo-4 {
   width: 80px;
   height: 43px;
+  fill: currentColor;
 }
+
+.clients-logo-4:hover,
+.clients-logo-4:focus {
+  fill: var(--blue-text);
+}
+
 
 .clients-logo-5 {
   width: 59px;
   height: 47px;
+  fill: currentColor;
+}
+
+.clients-logo-5:hover,
+.clients-logo-5:focus {
+  fill: var(--blue-text);
 }
 
 .clients-logo-6 {
   width: 88px;
   height: 45px;
+  fill: currentColor;
+}
+
+.clients-logo-6:hover,
+.clients-logo-6:focus {
+  fill: var(--blue-text);
 }
 
 /* Futer */
@@ -702,6 +761,8 @@ h2 .text-cards {
 
 
 .futer-nav {
+
+
   background-color: var(--black-background);
 }
 
@@ -750,4 +811,66 @@ h2 .text-cards {
   line-height: 1.2;
   text-decoration: none;
   
+}
+
+.social-footer {
+  display: flex;
+  margin-top: 20px;
+  padding: 0;
+  
+}
+
+.footer-text {
+  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+}
+
+.footer-social {
+
+  display: flex;
+  
+
+  width: 206px;
+  height: 80px;
+
+}
+
+.footer-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--blue-text);
+}
+
+.footer-icons {
+  width: 20px;
+  height: 20px;
+  fill: var(--white-text);
+}
+
+.footer-section {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-second {
+  margin-left: 70px;
 }
