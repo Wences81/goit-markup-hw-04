@@ -183,8 +183,8 @@ nav .link {
 
 
 .icon-envelop {
-  width: 16px;
-  height: 12px;
+  width: 18px;
+  height: 18px;
   
   margin-right: 10px;
 
@@ -194,8 +194,8 @@ nav .link {
 
 
 .icon-smartphone {
-  width: 10px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   margin-right: 10px;
 
   fill: currentColor;
@@ -487,27 +487,25 @@ nav .link {
   justify-content: center;
   align-items: center;
   margin-right: 10px;
+  color: var(--icon-color);
   background-color: var(--white-text);
+  fill: var(--white-text);
   
 }
 
 .social-link:hover,
 .social-link:focus {
   background-color: var(--blue-text);
+  color: var(--white-text);
   
 }
 
 .social-icons {
 
-  fill: var(--icon-color);
+  fill: currentColor;
   
   width: 20px;
   height: 20px;
-}
-
-.social-icons:hover,
-.social-icons:focus {
-  fill: var(--white-text);
 }
 
 
@@ -600,7 +598,7 @@ h2 .text-cards {
 
 .clients {
 
-  padding: 94px 215px;
+  padding: 94px;
 
 }
 
@@ -640,6 +638,8 @@ h2 .text-cards {
   box-sizing: border-box;
   border-radius: 4px;
   color: var(--icon-color);
+  
+  background-color: var(--white-text);
 
   justify-content: center;
   align-items: center;
@@ -648,9 +648,9 @@ h2 .text-cards {
 
 .clients-link:hover,
 .clients-link:focus {
-  fill: var(--blue-text);
+  
   border: 1px solid var(--blue-text);
- 
+  color: var(--blue-text); 
   
 }
 
@@ -662,10 +662,6 @@ h2 .text-cards {
   
 }
 
-.clients-logo-1:hover,
-.clients-logo-1:focus {
-  fill: var(--blue-text);
-}
 
 .clients-logo-2 {
   width: 40px;
@@ -673,10 +669,6 @@ h2 .text-cards {
   fill: currentColor;
 }
 
-.clients-logo-2:hover,
-.clients-logo-2:focus {
-  fill: var(--blue-text);
-}
 
 .clients-logo-3 {
   width: 41px;
@@ -684,20 +676,11 @@ h2 .text-cards {
   fill: currentColor;
 }
 
-.clients-logo-3:hover,
-.clients-logo-3:focus {
-  fill: var(--blue-text);
-}
 
 .clients-logo-4 {
   width: 80px;
   height: 43px;
   fill: currentColor;
-}
-
-.clients-logo-4:hover,
-.clients-logo-4:focus {
-  fill: var(--blue-text);
 }
 
 
@@ -707,10 +690,6 @@ h2 .text-cards {
   fill: currentColor;
 }
 
-.clients-logo-5:hover,
-.clients-logo-5:focus {
-  fill: var(--blue-text);
-}
 
 .clients-logo-6 {
   width: 88px;
@@ -718,10 +697,6 @@ h2 .text-cards {
   fill: currentColor;
 }
 
-.clients-logo-6:hover,
-.clients-logo-6:focus {
-  fill: var(--blue-text);
-}
 
 /* Futer */
 
